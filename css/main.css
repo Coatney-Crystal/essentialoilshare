@@ -14,7 +14,7 @@ body{
 }
 logo{
     width: 100px;
-    alignment-adjust: central;
+    display: inline; 
     margin: 150px auto 150px auto;
 }
 ul{
@@ -45,18 +45,35 @@ a{
     color:#000000;
     text-transform: uppercase;
     text-decoration: none;
-    padding: 6px 18px 5px 18px;}
+    padding: 6px 18px 5px 18px;
+}
 a:hover, a.on{
     color: #75529a;
-    background-color: #ffffff;
+  
 }
 
+
 footer{
-  display: inline;
-    font-size: 100%;
-    padding: 0px 0px 0px 100px;
-    
+    display: block;
+    background-color: #75529a;
 }
+footer a:link {
+	color: #fff;
+	}
+footer a:visited { 
+	color: #fff;
+	}
+
+
+footer a:hover {
+	color: #890007;
+	text-decoration: none;
+}
+
+
+
+ 
+
 .table.tbody.tr.td{
      width: 20px;
  height: 40px;  
