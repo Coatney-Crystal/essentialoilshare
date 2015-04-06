@@ -72,10 +72,14 @@
 
     </p>
 
-
+    <p><img src="/images/Header.jpg" </img></p>
 
     <footer>
-        <img src="/images/Header.jpg" 
+        
+            <a href="/images/siteplan.jpg"> Site Plan</a>
+        
+        
+           
     </footer>
 
 
